@@ -1,4 +1,8 @@
 # Notes
+<details> <summary>📊 Click to view Mermaid diagram code</summary>
+mermaid
+Copy
+Edit
 graph TD
     A[KNOWLEDGE FLOWCHART] --> B[Learn]
     B --> C[Explore]
@@ -10,3 +14,4 @@ graph TD
     style C fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
     style D fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
     style E fill:#ffccbc,stroke:#e64a19,stroke-width:2px
+</details>
