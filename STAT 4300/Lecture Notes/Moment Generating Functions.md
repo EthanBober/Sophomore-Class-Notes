@@ -69,10 +69,9 @@ M_u[e^{tu}] = \mathbb{E}[e^{tu}]&=\int_a^be^{tu}*\mathbb{P}(x=u)du \\
 \end{align*}
 ```
 
-- Example: MGF of Exponential
+- Example: MGF of Exponential: $X \sim \mathrm{Expo}[1]\\ $ 
 
 ```math
-X \sim \mathrm{Expo}[1]\\ 
 \begin{align*}
 M_x(t) = \mathbb{E}[e^{tX}] &= \int_{-\infty}^{\infty}e^{tx}f(x)\mathrm{d}x \\ 
 &=\int_{0}^{\infty}e^{tx}e^{-x} \\ 
@@ -132,4 +131,6 @@ M_x(t) = \mathbb{E}[e^{tX}] &= \int_{-\infty}^{\infty}e^{tx}f(x)\mathrm{d}x \\
 &= \mathbb{E}[x]
 \end{align*}
 ```
+
+
 
