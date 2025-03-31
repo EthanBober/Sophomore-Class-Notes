@@ -1,11 +1,12 @@
 # Notes
-```mermaid
 graph TD
-    A1[" "] --- A2[" "] --- A3[" "]
-    B1[" "] --- B2[" "] --- B3[" "]
-    C1[" "] --- C2[" "] --- C3[" "]
+    A[KNOWLEDGE FLOWCHART] --> B[Learn]
+    B --> C[Explore]
+    C --> D[Build]
+    D --> E[Share]
 
-    A1 --- B1 --- C1
-    A2 --- B2 --- C2
-    A3 --- B3 --- C3
-```
+    style A fill:#dcd6f7,stroke:#5c5470,stroke-width:2px
+    style B fill:#b3e5fc,stroke:#0277bd,stroke-width:2px
+    style C fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style D fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style E fill:#ffccbc,stroke:#e64a19,stroke-width:2px
