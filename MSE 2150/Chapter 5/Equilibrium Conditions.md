@@ -27,7 +27,8 @@
 
 
 ```math
-J_p (drift) + J_p(diff.) = 0 \\ J_n(drift) + J_n(diff.) =0
+J_p (drift) + J_p(diff.) = 0 \\ 
+J_n(drift) + J_n(diff.) =0
 ```
 
 - Therefore, the electric field builds up to the point where the net current is zero
@@ -123,32 +124,35 @@ qAx_{p0}N_a=qAx_{n0}N_d
 - A key part of this equation is that if the doping levels are not equal between the two samples, the penetration into the more lightly doped side must increase in order to *"sweep"* up more charge 
 
   - The total width of the region is naturally $x_{p0} + x_{n0}$ 
-
 - To calculate the electric field distribution within the region, the *Poisson Equation* is used to relate the electric field gradient to the space charge density
 
   - Ignoring the space charges and assuming complete ionization, we get
 
-  ```math
-  \begin{align*}
-  \frac{d\mathcal{E}}{dx} = \frac{q}{\epsilon} N_d && 0 < &x < x_{n0} \\  
-  \frac{d\mathcal{E}}{dx} = -\frac{q}{\epsilon} N_a && - x_{p0}< &x < 0 
-  \end{align*}
-  ```
 
-  - From these equations, the electric field becomes more negative up to zero, before increasing past the boundary and going into the n-doped region
+
+
+```math
+\begin{align*}
+\frac{d\mathcal{E}}{dx} = \frac{q}{\epsilon} N_d && 0 < &x < x_{n0} \\  
+\frac{d\mathcal{E}}{dx} = -\frac{q}{\epsilon} N_a && - x_{p0}< &x < 0 
+\end{align*}
+```
+
+
+
+- From these equations, the electric field becomes more negative up to zero, before increasing past the boundary and going into the n-doped region
   - Thus, the maximum of the field will be at zero and it will overall look like a triangle
-  - The value of the electric field can easily be found with integration:
+- The value of the electric field can easily be found with integration:
 
-  ```math
-  \int_{\mathcal{E_0}}^0 d\mathcal{E} = \frac{q}{\epsilon} N_d \int_0^{x_{n0}} dx
-  ```
+```math
+\int_{\mathcal{E_0}}^0 d\mathcal{E} = \frac{q}{\epsilon} N_d \int_0^{x_{n0}} dx
+```
 
-  ​	from 0 < x < $x_{n0}$
+​	from 0 < x < $x_{n0}$
 
 - Either equation can be used, but for this example using the n-side
 
   - Note that both sides will be negative, so the signs work out
-
 - Therefore, the maximum value of the electric field is:
 
 ```math
