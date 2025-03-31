@@ -29,7 +29,7 @@ c_3 = \mathbb{E}[(X-\mu)^3] = \mathbb{E}[X^3-3X^2\mu+3X\mu^2-\mu^3] = m_3-3m_1m_
 
 ```math
 \begin{align*}
-m_n = \mathbb{E}[X^n]=\int_{-\infin}^{\infin}x^nf(x)
+m_n = \mathbb{E}[X^n]=\int_{-\infty}^{\infty}x^nf(x)
 \end{align*}
 ```
 
@@ -39,7 +39,7 @@ m_n = \mathbb{E}[X^n]=\int_{-\infin}^{\infin}x^nf(x)
 
 - Rather than integrate or summate to find the moment, a useful tool is the *moment generating function*
 
-> The MGF of a r.v X is $M_x(t)=E[e^{tx}] : t \in \real$  
+> The MGF of a r.v X is $M_x(t)=E[e^{tx}] : t \in \mathbb{R}$  
 >
 > - The MGF exists if its finite for $t \in (-a,a)$ 
 
@@ -74,11 +74,11 @@ M_u[e^{tu}] = \mathbb{E}[e^{tu}]&=\int_a^be^{tu}*\mathbb{P}(x=u)du \\
 ```math
 X \sim \mathrm{Expo}[1]\\ 
 \begin{align*}
-M_x(t) = \mathbb{E}[e^{tX}] &= \int_{-\infin}^{\infin}e^{tx}f(x)\mathrm{d}x \\ 
-&=\int_{0}^{\infin}e^{tx}e^{-x} \\ 
-&=\int_{0}^{\infin}e^{(t-1)x}\\ 
-&=\frac{e^{(t-1)x}-1}{t-1} \Big|^\infin_0\\ 
-&=\frac{e^{(t-1)\infin}-1}{t-1}
+M_x(t) = \mathbb{E}[e^{tX}] &= \int_{-\infty}^{\infty}e^{tx}f(x)\mathrm{d}x \\ 
+&=\int_{0}^{\infty}e^{tx}e^{-x} \\ 
+&=\int_{0}^{\infty}e^{(t-1)x}\\ 
+&=\frac{e^{(t-1)x}-1}{t-1} \Big|^\infty_0\\ 
+&=\frac{e^{(t-1)\infty}-1}{t-1}
 \end{align*}
 ```
 
@@ -90,7 +90,7 @@ M_x(t) = \mathbb{E}[e^{tX}] &= \int_{-\infin}^{\infin}e^{tx}f(x)\mathrm{d}x \\
 \begin{align*}
 \begin{cases*}
 \frac{1}{1-t} & t<0 \\
-\infin & t>0
+\infty & t>0
 \end{cases*}
 \end{align*}
 ```
