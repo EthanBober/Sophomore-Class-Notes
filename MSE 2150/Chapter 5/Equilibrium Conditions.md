@@ -14,9 +14,11 @@
   - The space charges themselves are the uncompensated donor and acceptor atoms
   - The electrons leaving the n side leaves behind positive charge carriers $N_d^+$, and the holes leaving the p side leaves behind negative charge carriers $N_A^-$
 
-  ![image-20250330182505069](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250330182505069-1743405229656-2.png)
+  ![image-20250330182505069](assets/image-20250330182505069.png)
+  
+  ​	
 
-![image-20250330183443883](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250330183443883.png)
+<img src="assets/image-20250330183443883.png" alt="image-20250330183443883"  />
 
 - Thus, $\mathcal{E}$ - electric field will be pointing from positive to negative - or from the n-doped side to the p-doped side
 
@@ -44,7 +46,7 @@
       - As the potential goes from positive to negative, that will be the direction of $\mathcal{E}$
     - The contact potential separates the bands by the amount $qV_0$ in order to ensure that the fermi levels match throughout the junction
 
-![image-20250330184542042](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250330184542042.png)
+![image-20250330184542042](assets/image-20250330184542042.png)
 
 - The quantitative relationship between $V_0$ and the doping concentrations between each sides can also be found:
 
@@ -181,7 +183,7 @@ $$
 
 - Several useful variations by plugging in terms:
 
-![image-20250331013236237](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250331013236237.png)
+![image-20250331013236237](assets/image-20250331013236237.png)
 
 ## Forward and Reverse Bias Junctions
 
@@ -189,7 +191,7 @@ $$
 - When a forward voltage bias is applied to the junction region, the electrostatic barrier is lowered by amount $V_f$ from the equilibrium junction amount $V_0$ to $V_0 - V_f$ 
 - When a reverse voltage bias is applied to the junction region, the electrostatic barrier is increased and the valence band is depressed in relation to eq.
 
-![image-20250331014309437](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250331014309437.png)
+![image-20250331014309437](assets/image-20250331014309437.png)
 
 - This chart gives a nice summary
   - Forward bias reduces built-in potential, reverse bias increases potential
@@ -199,7 +201,7 @@ $$
 - The diffusion current is composed mainly of majority carriers with enough energy to overcome the shortened barrier under forward bias, so electrons going from n to p, and holes from p to n 
 - Here, the drift current doesn't really matter when no bias is applied, as not many electrons are free to be swept by the electric field due to thermal limitations
 
-![image-20250331015537676](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250331015537676.png)
+![image-20250331015537676](assets/image-20250331015537676.png)
 
 - The only current generated across the barrier is the relatively small EHP minority carriers by thermal excitation- creating a current known as the *generation current*
   - This current is present even when a reverse bias is applied to the junction
@@ -250,13 +252,13 @@ $$
 
 - As holes diffuse deeper into the n region, and electrons in the p region, recombination is expected and the number of minority carriers will decrease, causing an exponential decrease in the diffusion as the carriers travel
 
-![image-20250331025413007](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250331025413007.png)
+![image-20250331025413007](assets/image-20250331025413007.png)
 
 ## Reverse Bias Breakdown
 
 - At a high enough reverse voltage, a *reverse breakdown* occurs, where the current drops almost a right angle given a extreme enough negative voltage
 
-![image-20250331030232973](C:\Users\Ethan Bober\Documents\GitHub\Sophomore-Class-Notes-\MSE 2150\Chapter 5\assets\image-20250331030232973.png)
+![image-20250331030232973](assets/image-20250331030232973.png)
 
 - There are two mechanisms for this to occur
   - *Zener Breakdown*
