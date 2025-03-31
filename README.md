@@ -6,9 +6,8 @@ graph TD
     C --> D[Build]
     D --> E[Share]
 
-    style A fill:#dcd6f7,stroke:#5c5470,stroke-width:2px
-    style B fill:#b3e5fc,stroke:#0277bd,stroke-width:2px
-    style C fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    style D fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style E fill:#ffccbc,stroke:#e64a19,stroke-width:2px
-
+    style A fill:#eeeeee,stroke:#000,stroke-width:2px
+    style B fill:#f0f0f0,stroke:#000,stroke-width:2px
+    style C fill:#f0f0f0,stroke:#000,stroke-width:2px
+    style D fill:#f0f0f0,stroke:#000,stroke-width:2px
+    style E fill:#f0f0f0,stroke:#000,stroke-width:2px
