@@ -25,24 +25,25 @@
   - In other words, the diffusion current and the drift current must cancel out to zero
   - In math terms:
 
-  ```math
-  J_p (drift) + J_p(diff.) = 0 \\ J_n(drift) + J_n(diff.) =0
-  ```
 
-  - Therefore, the electric field builds up to the point where the net current is zero
+```math
+J_p (drift) + J_p(diff.) = 0 \\ J_n(drift) + J_n(diff.) =0
+```
 
-  - This electric field exists in some region *W*, and there is some equilibrium potential difference across the junction $V_0$
+- Therefore, the electric field builds up to the point where the net current is zero
+- This electric field exists in some region *W*, and there is some equilibrium potential difference across the junction $V_0$
 
-    - This potential is otherwise known as a built-in potential, specifically a contact potential since it arises from the *contact* of the two doped materials
-    - This electric field is dictated by:
+  - This potential is otherwise known as a built-in potential, specifically a contact potential since it arises from the *contact* of the two doped materials
+  - This electric field is dictated by:
 
-    ```math
-    \mathcal{E} = - \frac{d\mathcal{V(x)}}{dx}
-    ```
 
-    - Note that the electric field is the negative of the change in potential difference
-      - As the potential goes from positive to negative, that will be the direction of $\mathcal{E}$
-    - The contact potential separates the bands by the amount $qV_0$ in order to ensure that the fermi levels match throughout the junction
+```math
+\mathcal{E} = - \frac{d\mathcal{V(x)}}{dx}
+```
+
+- Note that the electric field is the negative of the change in potential difference
+  - As the potential goes from positive to negative, that will be the direction of $\mathcal{E}$
+- The contact potential separates the bands by the amount $qV_0$ in order to ensure that the fermi levels match throughout the junction
 
 ![image-20250330184542042](assets/image-20250330184542042.png)
 
