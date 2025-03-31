@@ -251,3 +251,13 @@ $$
 - As holes diffuse deeper into the n region, and electrons in the p region, recombination is expected and the number of minority carriers will decrease, causing an exponential decrease in the diffusion as the carriers travel
 
 ![image-20250331025413007](C:\Users\Ethan Bober\AppData\Roaming\Typora\typora-user-images\image-20250331025413007.png)
+
+## Reverse Bias Breakdown
+
+- At a high enough reverse voltage, a *reverse breakdown* occurs, where the current drops almost a right angle given a extreme enough negative voltage
+
+![image-20250331030232973](C:\Users\Ethan Bober\AppData\Roaming\Typora\typora-user-images\image-20250331030232973.png)
+
+- There are two mechanisms for this to occur
+  - *Zener Breakdown*
+  - *Avalanche Breakdown*
