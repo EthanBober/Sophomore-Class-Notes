@@ -8,8 +8,8 @@ graph TB
     A3[" "]
 
     %% Row 2 (eyes)
-    B1[" "] 
-    B2["●"] 
+    B1["●"] 
+    B2[" "] 
     B3["●"]
 
     %% Row 3 (nose space)
