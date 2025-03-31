@@ -16,7 +16,7 @@
   
   ​	
 
-<img src="assets/image-20250330183443883.png" alt="image-20250330183443883"  />
+![image-20250330183443883](assets/image-20250330183443883.png)
 
 - Thus, $\mathcal{E}$ - electric field will be pointing from positive to negative - or from the n-doped side to the p-doped side
 
