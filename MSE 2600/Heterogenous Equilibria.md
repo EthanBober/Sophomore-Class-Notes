@@ -50,7 +50,7 @@
 - Put in terms of one mole of $O_2$ so $pO_2$ can be directly found instead of having $\frac{1}{2}$ exponential
 
 ```math
-2\text{Ni(s)} + \text{O}_2(g) &= 2\text{NiO(s)}: \quad \Delta G^\circ = -489{,}100 + 197T \\
+2\text{Ni(s)} + \text{O}_2(g) = 2\text{NiO(s)}: \quad \Delta G^\circ = -489,100 + 197T
 
 ```
 
