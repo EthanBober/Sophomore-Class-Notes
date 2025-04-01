@@ -6,7 +6,7 @@
 - For a favorable reaction at 1 atm, the $\Delta G\degree$ is highly negative
 - Ex.
 
-![image-20250401092818370](/Users/ethanbober/Library/Application Support/typora-user-images/image-20250401092818370.png)
+![image-20250401092818370](assets/image-20250401092818370.png)
 
 - As the reaction proceeds, the pressure of the reactants decreases, increasing their entropy; how much?
 
